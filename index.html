@@ -741,9 +741,9 @@ const IC = {
 function renderExecKpis(){
   const c = document.getElementById('execKpis');
   const items = [
-    { lbl:'Cerchi mensili su &laquo;incentivi&raquo;', val: fmt(D.clusters_ae.incentivi_bonus.vol), sub:`Il tema #1 del mercato elettrico. 22% di tutto ci&ograve; che si cerca sull&rsquo;auto elettrica in Italia.`, ic:IC.euro },
-    { lbl:'Cerchi mensili su &laquo;ricarica&raquo;', val: fmt(D.clusters_ae.ricarica.vol), sub:`La seconda ossessione. Include colonnine, wallbox, kWh e dove/come si ricarica.`, ic:IC.plug },
-    { lbl:'Cerchi mensili su Skoda Epiq', val: fmt(D.epiq.total_vol), sub:`Il modello non &egrave; ancora in vendita, ma le persone lo cercano gi&agrave;. Territorio aperto.`, ic:IC.spark },
+    { lbl:'Ricerche mensili su &laquo;incentivi&raquo;', val: fmt(D.clusters_ae.incentivi_bonus.vol), sub:`Il tema #1 del mercato elettrico. 22% di tutto ci&ograve; che si cerca sull&rsquo;auto elettrica in Italia.`, ic:IC.euro },
+    { lbl:'Ricerche mensili su &laquo;ricarica&raquo;', val: fmt(D.clusters_ae.ricarica.vol), sub:`La seconda ossessione. Include colonnine, wallbox, kWh e dove/come si ricarica.`, ic:IC.plug },
+    { lbl:'Ricerche mensili su Skoda Epiq', val: fmt(D.epiq.total_vol), sub:`Il modello non &egrave; ancora in vendita, ma le persone lo cercano gi&agrave;. Territorio aperto.`, ic:IC.spark },
     { lbl:'Divario engagement su YouTube', val:'6,15pp', sub:`Elettronauti (creator) 6,18% di engagement. Škoda Italia (brand) 0,03%. Il canale ufficiale non genera conversazione.`, ic:IC.video },
   ];
   items.forEach(it=>{
