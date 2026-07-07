@@ -310,6 +310,95 @@ footer.foot a:hover{border-bottom-color:var(--accent-orange)}
 .src.miss{background:linear-gradient(135deg,#ebe5d7,#e0d9c8);border-color:var(--hair-strong);opacity:.85}
 .src.miss .s-tag{color:var(--danger)}
 
+/* ================================================
+   MOBILE – max-width: 600px
+   ================================================ */
+@media(max-width:600px){
+
+  /* Layout base */
+  .wrap{padding:0 20px}
+  section.blk{padding:56px 0}
+  section.blk.tight{padding:40px 0}
+
+  /* Nav */
+  .nav-outer{padding:10px 16px 0}
+  .nav-inner{padding:8px 12px}
+
+  /* Hero */
+  .hero{padding:52px 20px 36px}
+  .hero-grid{grid-template-columns:1fr;gap:28px}
+  h1.title{font-size:clamp(36px,11vw,56px);line-height:1.06}
+  .hero-lead{font-size:16px;margin-top:16px}
+  .hero-meta{gap:20px}
+  .hero-meta .val{font-size:22px}
+  .hero-mantra{display:none}
+
+  /* Section headings */
+  .section-head{grid-template-columns:1fr;gap:14px}
+  .section-head h2{font-size:clamp(26px,7vw,40px)}
+
+  /* KPI */
+  .kpi-grid{grid-template-columns:1fr 1fr;gap:12px}
+  .kpi{padding:22px 18px}
+  .kpi .k-val{font-size:42px}
+
+  /* Cards */
+  .card{padding:22px 20px}
+  .two-col{grid-template-columns:1fr}
+  .three-col{grid-template-columns:1fr}
+
+  /* Cluster */
+  .cluster-grid{grid-template-columns:1fr}
+  .cluster{padding:20px 18px}
+
+  /* Moment / stagionalità */
+  .moment-grid{grid-template-columns:1fr 1fr;gap:10px}
+  .moment{padding:16px}
+
+  /* Heatmap – scrollabile orizzontalmente */
+  .heat-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .heat{min-width:640px}
+
+  /* Horizontal bar rows */
+  .h-bar-row{grid-template-columns:120px 1fr 70px;gap:8px;font-size:13px}
+
+  /* Tabelle – scrollabili */
+  .tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .tbl{font-size:13px;min-width:480px}
+  .tbl th,.tbl td{padding:10px 10px}
+
+  /* Insight */
+  .insight{padding:28px 22px}
+  .insight .in-num{font-size:54px}
+  .insight .in-title{font-size:22px}
+
+  /* Sezione Epiq */
+  .epiq-hero{grid-template-columns:1fr}
+  .epiq-left h3{font-size:36px}
+  .epiq-stat .es-val{font-size:28px}
+
+  /* Banner quote */
+  .banner{padding:52px 0}
+  .banner blockquote{font-size:clamp(26px,7vw,40px)}
+
+  /* Footer */
+  .foot-grid{grid-template-columns:1fr;gap:32px}
+  .foot-brand strong{font-size:30px}
+
+  /* Sources */
+  .src-grid{grid-template-columns:1fr}
+  .src{padding:20px 18px}
+
+  /* Quote cards */
+  .quote-grid{grid-template-columns:1fr}
+  .quote-grid-wide{grid-template-columns:1fr}
+
+  /* Chip row – scroll orizzontale */
+  .chip-row{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:6px}
+  .chip-row::-webkit-scrollbar{display:none}
+
+}
+
 /* Print helpers */
 @media print{
   .nav{display:none}
@@ -1972,6 +2061,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 });
 
 </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"4edd5f8ec12a48cfa682ab8261b80a79","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"4edd5f8ec12a48cfa682ab8261b80a79","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"4edd5f8ec12a48cfa682ab8261b80a79","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"4edd5f8ec12a48cfa682ab8261b80a79","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
